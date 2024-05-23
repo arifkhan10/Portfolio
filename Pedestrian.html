@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
 <!-- Favicons -->
-<link href="assets/img/icon.png" rel="icon">
+<link href="assets/img/Arif.png" rel="icon">
 <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -47,7 +47,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/avatar.jpg" alt="" class="img-fluid rounded-square" style="border: none;">
+        <img src="assets/img/Arif.jpg" alt="" class="img-fluid rounded-square" style="border: none;">
         <h1 class="text-light"><a href="index.html">Arif Khan</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://github.com/vasundra" class="github"><i class="bx bxl-github"></i></a>
@@ -87,9 +87,9 @@
         
           <div class="col-lg-12">
             <div class="portfolio-info">
-              <h3>Pedestrian and Scooter Detection at ASU</h3>
+              <h3>Predicting Customer Lifetime Value (CLV)</h3>
               <ul>
-                <li><strong>Category</strong>: Computer Vision Model</li>
+                <li><strong>Category</strong>: Machine Learning</li>
                 <li><strong>Client</strong>: Personal</li>
                 <li><strong>Project date</strong>: 17 Apr, 2023</li>
                 </ul>
@@ -98,7 +98,19 @@
             <div class="portfolio-description">
               <h2>Summary</h2>
               <ul>
-                <li><p align="justify">Developed a Python-based CV model integrated into a Streamlit web app that identified pedestrians on skates and scooters on the path for pedestrians only  and alerts the authority about the violations.</p> </li>
+                <li><p align="justify">Model Performance Metrics: The MLP Regressor demonstrated competitive performance with an RMSE of 3426.86, indicating that the predicted CLV values are, on average, $3,426.86 away from the actual values. Additionally, the high R-squared value of 0.8739 suggests that the model explains 87.39% of the variation in CLV, outperforming the Random Forest and Gradient Boosting models in capturing data variance.</p> </li>
+               </ul>
+
+               <ul>
+                <li><p align="justify">Scatter Plot Insights: The scatter plot comparing actual vs. predicted CLV values reveals a dense cluster of accurately predicted points near the origin, particularly for customers with lower CLV values. This clustering indicates the MLP model's strong ability to predict the behavior of the general customer base effectively.</p> </li>
+               </ul>
+
+               <ul>
+                <li><p align="justify">Challenges with High CLV Predictions: Despite the overall strong performance, the scatter plot also shows deviations for higher CLV values, with several points far from the perfect prediction line. This suggests that the MLP model may struggle with predicting higher-end CLV values accurately, indicating a potential area for improvement.</p> </li>
+               </ul>
+
+               <ul>
+                <li><p align="justify">Conclusion and Future Steps: The MLP Regressor is a robust predictive model for CLV, boasting low RMSE and high R-squared values. However, the model's overestimation of higher-value customers highlights the need for further investigation. Future steps could include additional hyperparameter tuning or data preprocessing to enhance the model's accuracy, particularly for high CLV predictions.</p> </li>
                </ul>
             </div>
           </div>
